@@ -1,15 +1,12 @@
 {
-  "name": "server",
-  "version": "1.0.0",
+  "name": "codex-server",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "description": "",
   "scripts": {
     "start": "nodemon index",
     "server": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cloudinary": "^1.36.1",
     "cors": "^2.8.5",
@@ -18,5 +15,8 @@
     "mongoose": "^7.0.4",
     "nodemon": "^2.0.22",
     "openai": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
