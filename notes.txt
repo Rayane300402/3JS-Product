@@ -1,0 +1,22 @@
+ npm install cloudinary cors dotenv express mongoose nodemon openai
+
+cloudinary => save images
+
+cors => allows cross origin requests
+
+dotenv => allows to use environment variables
+
+express => web framework
+
+express-async-handler => allows to use async/await in express
+
+express-fileupload => allows to upload files
+
+express-rate-limit => allows to limit requests
+
+helmet => helps to secure express apps
+
+mongoose => mongodb object modeling tool
+
+nodemon => development server
+
