@@ -1,5 +1,6 @@
-import { swatch, fileIcon, ai, logoShirt, stylishShirt } from "../assets";
+import { swatch, fileIcon, ai, logoShirt, stylishShirt, download } from "../assets";
 
+// add a change shirt style here
 export const EditorTabs = [
   {
     name: "colorpicker",
@@ -15,6 +16,7 @@ export const EditorTabs = [
   },
 ];
 
+// add a download button here
 export const FilterTabs = [
   {
     name: "logoShirt",
@@ -23,6 +25,10 @@ export const FilterTabs = [
   {
     name: "stylishShirt",
     icon: stylishShirt,
+  },
+  {
+    name: "download",
+    icon: download,
   },
 ];
 
